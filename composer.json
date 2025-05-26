@@ -1,11 +1,14 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-starter-kit",
+    "name": "poke-planner/poke-planner",
     "type": "project",
-    "description": "The official Laravel starter kit for Livewire.",
+    "description": "A web application for Pokémon Trading Card Game collectors to plan, track, and manage their card collections. Features collection organization, tracking, and management tools.",
     "keywords": [
+        "pokemon",
+        "tcg",
+        "collection",
         "laravel",
-        "framework"
+        "trading-cards"
     ],
     "license": "MIT",
     "require": {

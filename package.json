@@ -1,4 +1,7 @@
 {
+    "name": "poke-planner",
+    "description": "A web application for Pokémon Trading Card Game collectors to plan, track, and manage their card collections. Features collection organization, tracking, and management tools.",
+    "license": "MIT",
     "private": true,
     "type": "module",
     "scripts": {
