@@ -24,15 +24,15 @@ class DatabaseSeeder extends Seeder
             RaritySeeder::class,
             CollectionTypeSeeder::class,
             PokemonSeeder::class,
-            SetSeriesSeeder::class,
+//            SetSeriesSeeder::class,
             CardTypeSeeder::class,
             VariantTypeSeeder::class,
             ConditionSeeder::class,
 
             CollectionSeeder::class,
             CardSetSeeder::class,
-            CardSeeder::class,
-            CollectionCardSeeder::class,
+//            CardSeeder::class,
+//            CollectionCardSeeder::class,
         ]);
 
     }

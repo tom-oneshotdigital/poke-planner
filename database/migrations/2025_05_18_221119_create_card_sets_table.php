@@ -10,9 +10,14 @@ return new class extends Migration
     {
         Schema::create('card_sets', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('series_id')->constrained('set_series');
+            $table->foreignId('set_series_id')->constrained('set_series');
+            $table->string('code')->unique();
+            $table->string('slug')->unique();
             $table->string('name');
+            $table->integer('total_cards')->nullable();
             $table->date('release_date')->nullable();
+            $table->string('logo_url')->nullable();
+            $table->string('symbol_url')->nullable();
             $table->timestamps();
         });
     }

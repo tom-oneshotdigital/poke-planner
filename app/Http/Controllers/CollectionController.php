@@ -6,7 +6,7 @@ use App\Models\Collection;
 use Illuminate\Http\Request;
 use Pokemon\Pokemon;
 
-class DashboardController extends Controller
+class CollectionController extends Controller
 {
     public function index()
     {
@@ -19,6 +19,6 @@ class DashboardController extends Controller
 
         $collections = Collection::with('collectionType')->get();
 
-        return view('dashboard', compact('collections'));
+        return view('collections.index', compact('collections'));
     }
 }
